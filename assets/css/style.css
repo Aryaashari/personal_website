@@ -1,0 +1,97 @@
+body {
+    background-color: #272727;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #F35045 !important;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+}
+
+.navbar .container-fluid {
+    justify-content: center !important;
+}
+
+.navbar .nav-item {
+    margin-right: 60px;
+}
+
+.navbar .nav-link {
+    color: white;
+    text-align: center;
+}
+
+.navbar .nav-link:hover::after {
+    content: ' ';
+    display: block;
+    width: 50%;
+    height: 5px;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 3px;
+}
+
+.navbar .nav-link.active {
+    font-weight: 500;
+}
+
+.navbar .nav-link.active::after {
+    content: ' ';
+    display: block;
+    width: 50%;
+    height: 5px;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 3px;
+}
+
+
+
+
+/* Footer */
+footer {
+    background-color: #F35045;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+
+/* Mobile Devices */
+@media (max-width: 767px) {
+
+    /* Navbar */
+    .navbar-nav {
+        flex-direction: row;
+    }
+
+    .nav-link {
+        font-size: 14px !important;
+    }
+
+    .nav-item {
+        margin-right: 20px !important;
+    }
+
+}
+
+
+/* Tablet Devices */
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    /* Navbar */
+    .navbar-nav {
+        flex-direction: row;
+    }
+
+}

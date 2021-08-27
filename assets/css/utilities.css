@@ -1,0 +1,60 @@
+/* === Button Style === */
+.ut_btn_primary {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    width: 176px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #F35045;
+    border-radius: 50px;
+    border: none;
+    color: white;
+}
+
+.ut_btn_primary:hover {
+    background-color: rgb(255, 109, 98);
+    color: white;
+}
+
+.ut_btn_primary:focus {
+    background-color: #F35045;
+    box-shadow: none;
+}
+
+
+
+
+/* === Section Title Style === */
+.ut_section_title {
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+
+.ut_section_title::after {
+    content: ' ';
+    width: 70px;
+    height: 4px;
+    background-color: white;
+    display: block;
+    border-radius: 20px;
+    margin-top: 8px;
+}
+
+
+
+/* === Sosmed Icon Badge Style === */
+.ut_sosmed_icon {
+    width: 50px;
+    height: 50px;
+    background-color: #F35045;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ut_sosmed_icon img {
+    width: 30px;
+}
