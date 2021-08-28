@@ -1,14 +1,23 @@
 /* === Button Style === */
-.ut_btn_primary {
+.btn{
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 18px;
     width: 176px;
     padding-top: 15px;
     padding-bottom: 15px;
-    background-color: #F35045;
     border-radius: 50px;
     border: none;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+
+
+.ut_btn_primary {
+    background-color: #F35045;
     color: white;
 }
 
@@ -19,7 +28,20 @@
 
 .ut_btn_primary:focus {
     background-color: #F35045;
-    box-shadow: none;
+}
+
+
+.ut_btn_white {
+    background-color: white;
+    color: #272727 !important;
+}
+
+.ut_btn_white:hover {
+    background-color: rgb(216, 216, 216);
+}
+
+.ut_btn_white:focus {
+    background-color: white;
 }
 
 
