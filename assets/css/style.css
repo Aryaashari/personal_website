@@ -23,28 +23,21 @@ body {
     text-align: center;
 }
 
-.navbar .nav-link:hover::after {
+.navbar .nav-link:hover::after, .navbar .nav-link::after, .navbar .nav-link.active::after {
     content: ' ';
     display: block;
     width: 50%;
     height: 5px;
     border-radius: 20px;
-    background-color: white;
     margin-top: 3px;
+}
+
+.navbar .nav-link:hover::after, .navbar .nav-link.active::after {
+    background-color: white;
 }
 
 .navbar .nav-link.active {
     font-weight: 500;
-}
-
-.navbar .nav-link.active::after {
-    content: ' ';
-    display: block;
-    width: 50%;
-    height: 5px;
-    border-radius: 20px;
-    background-color: white;
-    margin-top: 3px;
 }
 
 
