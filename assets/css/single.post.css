@@ -4,7 +4,7 @@
     color: white;
 }
 
-/* Post Content Area */
+/* ===== Post Content Area ===== */
 .post_image {
     height: 600px;
     background-color: green;
@@ -155,6 +155,43 @@
 
 
 
+/* ===== Post Sidebar Area ===== */
+/* Post Categories */
+.post_categories {
+    border: 1px solid rgba(255, 255, 255, 0.486);
+    padding: 20px;
+}
+
+.post_categories h5 {
+    margin-bottom: 30px;
+}
+
+.post_categories  a {
+    text-decoration: none;
+    color: white;
+}
+
+.post_category {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.post_category:hover {
+    background-color: #F35045;
+    transition: .3s;
+}
+
+.post_categories h6, .post_categories p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+
 
 
 
@@ -203,6 +240,14 @@
 
     .post_comment_form .form {
         width: 100%;
+    }
+
+
+
+
+    /* ===== Post Sidebar Area ===== */
+    .post_sidebar {
+        margin-top: 50px;
     }
 
 }
