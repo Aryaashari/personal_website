@@ -125,6 +125,40 @@
 
 
 
+.post_comment_form {
+    margin-top: 100px;
+}
+
+.post_comment_form h5 {
+    margin-bottom: 20px;
+}
+
+.post_comment_form .form {
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+.post_comment_form input, .post_comment_form textarea {
+    width: 100%;
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+}
+
+.post_comment_form input::placeholder, .post_comment_form textarea::placeholder {
+    color: rgba(255, 255, 255, 0.863);
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
 
 /* Mobile Devices */
 @media (max-width: 767px) {
@@ -164,6 +198,11 @@
 
     .comment {
         font-size: 13px;
+    }
+
+
+    .post_comment_form .form {
+        width: 100%;
     }
 
 }
